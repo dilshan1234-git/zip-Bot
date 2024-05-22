@@ -15,7 +15,7 @@ async def start(client, message):
     reply_markup = InlineKeyboardMarkup(
     [
         [
-            InlineKeyboardButton("📍 Update Channel", url="https://t.me/NT_BOT_CHANNEL"),
+            InlineKeyboardButton("join වෙලා බලන්න", url="https://t.me/NT_BOT_CHANNEL"),
         ],
         [
             InlineKeyboardButton("👥 Support Group", url="https://t.me/NT_BOTS_SUPPORT"),
@@ -25,7 +25,7 @@ async def start(client, message):
   )
     start_message = (
         "Hello!\n\n"
-        "Send me a ZIP file, and I'll unzip it for you."
+        "zip එකක් එවලා බලන්න.සමහරවිට unzip වෙයි 🔥."
     )
     await message.reply(start_message, reply_markup=reply_markup)
 
